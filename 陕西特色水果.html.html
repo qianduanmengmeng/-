@@ -1,222 +1,185 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="UTF-8">
+		<meta charset="utf-8" />
 		<title></title>
-		<link rel="stylesheet" href="common2.css"> 
-		<style type="text/css">
-		 
-		.header{
-				background-color:#50871f;
-			}
-			.width1100{
+		<link rel="stylesheet" href="common2.css" type="text/css">
+			<style>
+				.header{
+					background-color: green;
+					
+				}
+				.width1100{
+					width:1100px;
+					margin:0 auto;
+				}
+				.header .width1100{
+					position: relative;
+					width:1100px;
+					height:119px;
+					padding:70px 0px 28px 220px;
+					
+				}
+				.img1{
+					position:absolute;
+					left:0;
+					top:11px;
+					z-index: 3;
+				}
+				.ul1{
+					list-style: none;
+					width:875px;
+					height:14px;
+				}
 				
-				width:1100px;
-				margin:0 auto;
-			}
-			.header .width1100{
-				position:relative;
-				padding:60px 0 20px 220px;	
-			}
-			 
-			.button_right ul li{
-				float:left;
-				width:69px;
-			  margin-right:40px;
-				 
-			}
-			.button_right .active{
-				display:inline-block;
-				width:89px;
-				height:31px; 
-				border-radius:16px;
-				 line-height: 31px;
-				background-color: #caff9b;
-				 padding:0 10px;
-				 
-			}
-			.button_right li:hover{
-				display: inline-block;
-				width:69px;
-				height:31px; 
-				border-radius:16px;
-				 line-height: 31px;
-				background-color: #caff9b;
-				  
-			}
-			.logo img{
-				width:142px; height:137px; position:absolute; top:12px; left:0; z-index:2;
-			}
-			.nav li a:hover,.nav li a.active{
+				.ul1 li{
+					float:left; 
+					width:98px; 
+					padding:0 9px;
+
+				}
+			 .ul1 li a{
+			 	display: block;
+			 	height:30px;
+			 	line-height: 30px;
+			 	text-align: center;
+			 	 font-size: 15px;
+				 border-radius:15px;
+			 	
+			 }
+				.ul1 li .li1,.ul1 li a:hover{
+					 
 				color:#126d13;
 				 background-color:#caff9b;
-				 border-radius:16.5px;
-				 }
-			.button_top{
-				position:absolute;
-				right:0;
-				top:24px;
-			}
-			.button_top span{
-				font-size:16px;
-				color:#126d13;
-			}	
-			.button_right ul li{
-				float:left;
-				list-style: none;
-			} 
-			.banner{
-				position:relative;
-				 left:50%; 
-				 top:50%; 
-				 margin-left:-960px;
-				background-image: url(img/b1.jpg);
-				width:1920px;
-				height:620px;
-				 
-			}
-			.section{
-				position: relative;
-				width:1100px;
-				margin:0 auto;
-				padding-top:80px;
-				 
 				
-			}
-			 
-			.section .p1{
-				font-size: 33px;
-				font-weight: bold;
-				text-align: center;
-				margin-bottom: 16px;
-				color:#000000; 
-				
-			}
-			.section .p1 span{
-				color:#ffce88;
-			}
-			.section .p2{
-				font-size: 14px;
-				font-weight: 100;
-				text-align: center;
-				margin-bottom: 54px;
-			}
-			.section .p3{
-				font-size: 14px;
-				color:#509ac1;
-				text-indent: 2em;
-			}
-			.ul1 li{
-				float: left;
-			}
-			.ul1 .c1,.ul1 .c11,.ul1 .c111{
-				margin-right: 13px;
-			}
-			.ul1 .c1 .c2,.ul1 .c11 .c22,.ul1 .c111 .c222,.ul1 .c1111 .c2222{
-				margin-bottom: 10px;
-			}
-			.ul1 .c1 .c3,.ul1 .c11 .c33,.ul1 .c111 .c333,.ul1 .c1111 .c3333{
-				font-size: 27px;
-				font-weight: bold;
-				text-align: center;
-				margin-bottom: 6px;
-			}
-			.ul1 .c1 .c7,.ul1 .c11 .c77,.ul1 .c111 .c777,.ul1 .c1111 .c7777{
-				font-size: 15px;
-				 color:burlywood;
-				text-align: center;
-				margin-bottom: 6px;
-				text-align: center;
-			}
-</style>
-</head>
 
-<body>
-				<div class="header">
-				<div class="width1100">
-					<div class="logo"><img src="img/h1.png"></div>
-					<div class="button_top"><img src="img/h2.png"><span>咨询订购热线：400-400-4000</span></div>
-					<div class="button_right">
-						<ul class="nav clearfix">
-							 <li><a href="#" class="active">网站首页</a></li>
-				             <li><a href="#">网站首页</a></li>
-				             <li><a href="#">网站首页</a></li>
-				             <li><a href="#">网站首页</a></li>
-				             <li><a href="#">网站首页</a></li>
-				             <li><a href="#">网站首页</a></li>
-				             <li><a href="#">网站首页</a></li>
-				             <li><a href="#">网站首页</a></li>
-						</ul>
+				}
+				.top{
+					position: absolute;
+					width:242px;
+					top:24px;
+					right:0;
+					
+				}
+				.top img{
+					 
+				}
+				.top span{
+					display: inline-block;
+					font-size:10px;
+					padding-left: 7px;
+				}
+				.main .width1100{
+					background-image:url(img/b1.jpg);
+					width:1920px;
+					height:620px;
+				}
+				.main1 .width1100{
+					padding-top:86px;
+				}
+				.main1 .width1100 .p1{
+					font-size:33px; 
+					font-weight:bold; 
+					text-align:center; 
+					margin-bottom:16px;
+				}
+				.main1 .width1100 .p1 span{
+					color:orangered;
+				}
+				.main1 .width1100 .p2{
+					font-size:12px;
+					color:#000000;
+					text-align: center;
+					margin-bottom: 53px;
+				}
+				.main1 .width1100 .p3{
+					color:greenyellow;
+					font-size: 12px;
+					line-height:20px;
+					text-indent: 2em;
+					margin-bottom: 51px;
+				}
+				.float li{
+					float: left;
+					margin-right:13px;
+				}
+				.float .p01{
+					text-align: center;
+					font-size: 26px;
+					font-weight: bold;
+				}
+				.float .p001{
+					text-align: center;
+					font-size: 17px;
+					font-weight: normal;
+				}
+			</style>
+	</head>
+	<body>
+		<header>
+			<div class="header">
+				<div class="width1100"> 
+					<div class="img1">
+						<img src="img/h1.png">
 					</div>
+					<ul class="clearfix ul1">
+						<li><a href="#"  class="li1">网站首页</a></li>
+						<li><a href="#">网站首页</a></li>
+						<li><a href="#">网站首页</a></li>
+						<li><a href="#">网站首页</a></li>
+						<li><a href="#">网站首页</a></li>
+						<li><a href="#">网站首页</a></li>
+						<li><a href="#">网站首页</a></li>
+						<li><a href="#">网站首页</a></li>
+					</ul>
+					<div class="top"><img src="img/h2.png"><span>咨询订购热线：400-4000-1111</span></div>
 				</div>
 			</div>
-			
-			<div class="banner">
-				
-			</div>
-			<div class="section">
+		</header>
+		<section>
+			<div class="main">
 				<div class="width1100">
-					 
-						<p class="p1">我们用<span>最贴心的服务提供最特级品质</span>的新鲜水果</p>
-				 		<p class="p2">WE PROVIDE PREMIUM QUALITY FRESH FRUITS WITH THE MOST ATTENTIVE</p>
-				 		<p class="p3">
-				 			       我们用最贴心的服务提供最特级品质的新鲜水果。我们用最贴心的服务提供最特级品质的新鲜水果。
-							        我们用最贴心的服务提供最特级品质的新鲜水果。我们用最贴心的服务提供最特级品质的新鲜水果。
-							        我们用最贴心的服务提供最特级品质的新鲜水果。我们用最贴心的服务提供最特级品质的新鲜水果。
-							        我们用最贴心的服务提供最特级品质的新鲜水果。我们用最贴心的服务提供最特级品质的新鲜水果。
-							        我们用最贴心的服务提供最特级品质的新鲜水果。我们用最贴心的服务提供最特级品质的新鲜水果。
-							        我们用最贴心的服务提供最特级品质的新鲜水果。我们用最贴心的服务提供最特级品质的新鲜水果。
-				 		</p>
-				 
-						<ul class="ul1 clearfix">
-							<li class="c1">
-								<div class="c2">
-									<img src="img/p1.jpg">
-								</div>
-								<p class="c3">
-									陕西水果
-								</p>
-								<p class="c7">
-									特级品质，新鲜水果
-								</p>
-							</li>
-							<li class="c11">
-								<div class="c22">
-									<img src="img/p2.jpg">
-								</div>
-								<p class="c33">
-									陕西水果
-								</p>
-								<p class="c77">
-									特级品质，新鲜水果
-								</p>
-							</li>
-							<li class="c111">
-								<div class="c222">
-									 <img src="img/p1.jpg">
-								</div>
-								<p class="c333">
-									陕西水果
-								</p>
-								<p class="c777">
-									特级品质，新鲜水果
-								</p>
-							</li>
-							<li class="c1111">
-								<div class="c2222">
-									<img src="img/p4.jpg">
-								</div>
-								<p class="c3333">
-									陕西水果
-								</p>
-								<p class="c7777">
-									特级品质，新鲜水果
-								</p>
-							</li>
-						</ul>
-					</div>
 					
 				</div>
-			 
-</body>
+			</div>
+		</section>
+		<section>
+			<div class='main1'>
+				<div class="width1100">
+						<p class="p1">我们用<span>最贴心的服务提供最特级品质</span>的新鲜水果</p>
+					  	<p class="p2">WE PROVIDE PREMIUM QUALITY FRESH FRUITS WITH THE MOST ATTENTIVE</p>
+					    <p class="p3">
+					        我们用最贴心的服务提供最特级品质的新鲜水果。我们用最贴心的服务提供最特级品质的新鲜水果。
+						        我们用最贴心的服务提供最特级品质的新鲜水果。我们用最贴心的服务提供最特级品质的新鲜水果。
+						        我们用最贴心的服务提供最特级品质的新鲜水果。我们用最贴心的服务提供最特级品质的新鲜水果。
+						        我们用最贴心的服务提供最特级品质的新鲜水果。我们用最贴心的服务提供最特级品质的新鲜水果。
+						        我们用最贴心的服务提供最特级品质的新鲜水果。我们用最贴心的服务提供最特级品质的新鲜水果。
+						        我们用最贴心的服务提供最特级品质的新鲜水果。我们用最贴心的服务提供最特级品质的新鲜水果。
+					     </p>
+                   <ul class="clearfix float">
+                   	<li>
+                   		<img src="img/p1.jpg">
+                   		<p class="p01">专业栽培</p>
+                   		<p class="p001">细心养育    优质源头</p>
+                   	</li>
+                   	<li>
+                   		<img src="img/p2.jpg">
+                   		<p class="p01">专业栽培</p>
+                   		<p class="p001">细心养育    优质源头</p>
+                   	</li>
+                   	<li>
+                   		<img src="img/p1.jpg">
+                   		<p class="p01">专业栽培</p>
+                   		<p class="p001">细心养育    优质源头</p>
+                   	</li>
+                   	<li>
+                   		<img src="img/p2.jpg">
+                   		<p class="p01">专业栽培</p>
+                   		<p class="p001">细心养育    优质源头</p>
+                   	</li>
+                   </ul>
+				</div>
+			</div>
+		</section>
+	</body>
 </html>
